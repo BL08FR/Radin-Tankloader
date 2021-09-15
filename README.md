@@ -1,4 +1,8 @@
 # Radin-Tankloader
+
+"Radin" mean greedy in french!
+Similar functions commercial devices cost +-400€...
+
 The Radin Tankloader is made to load tank to a specified level without connection between the pumping base and the station it can be used as a timer or manually.
 You can display values that the tank station send and analog button outpup values.
 
@@ -19,4 +23,4 @@ Component of tank station :
 - analog gauge level sensor if not already available
 
 The "AP" .ino is fr the pumping base, the "STA" .ino is for the station (tank).
-All others infrmations should be located in the begining of each .ino files.
+All others informations should be located in the begining of each .ino files.
