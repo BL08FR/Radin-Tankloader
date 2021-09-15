@@ -11,16 +11,17 @@ The pumping station regarding the required level entered by the user will switch
 
 Component of pumping base :
 - Wemos D1R2 (esp8266) wifi board or equivalent chinese clone
-- 220AC to minimum 7VDC and maximum 12VDC power supply
-- 5 buttons analog board
-- relay 3.3v (important)
-- LCD1601 screen with i2c module
+- 220AC to minimum 7VDC and maximum 12VDC power supply (old phone charger, old RC battery charger...etc)
+- 5 buttons analog board type "keyes_AD_key kb45037"
+- relay 3.3v (important) type "HL-51 v1.0"
+- LCD1602 screen with it's i2c module
 
 Component of tank station :
 - Wemos D1R2 (esp8266) wifi board or equivalent chinese clone
 - ADS1115
-- power source if not already available
-- analog gauge level sensor if not already available
+- power source if not already available on the tank
+- KCD11 switch
+- analog gauge level sensor if not already on the tank
 
 The "AP" .ino is for the pumping base, the "STA" .ino is for the station (tank).
 All others informations should be located in the begining of each .ino files.
