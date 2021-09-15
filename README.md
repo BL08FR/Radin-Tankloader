@@ -24,3 +24,4 @@ Component of tank station :
 
 The "AP" .ino is fr the pumping base, the "STA" .ino is for the station (tank).
 All others informations should be located in the begining of each .ino files.
+If you have a problem with libraries, download the .zip file and place the content in your arduino library folder.
