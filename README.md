@@ -3,11 +3,11 @@
 "Radin" mean greedy in french!
 Similar functions commercial devices cost +-400€...
 
-The Radin Tankloader is made to load tank to a specified level without connection between the pumping base and the station it can be used as a timer or manually.
-You can display values that the tank station send and analog button outpup values.
+The Radin Tankloader is made to load tank to a specified level, without connection between the pumping base and the station it can be used as a timer or manually.
+You can display values that the tank station sent and analog button output values.
 
 The tank unit send to the pumping station continuously the tank sensor voltage output (mV), the calculated tank level (L) and the eventual error code.
-The pumping station regarding the required level entered by the user will swith of the relay (so the pump) when the desired level is reached.
+The pumping station regarding the required level entered by the user will switch off the relay (so the pump) when the desired level is reached.
 
 Component of pumping base :
 - Wemos D1R2 (esp8266) wifi board of equivalent chinese clone
