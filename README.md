@@ -10,18 +10,18 @@ The tank unit send to the pumping station continuously the tank sensor voltage o
 The pumping station regarding the required level entered by the user will switch off the relay (so the pump) when the desired level is reached.
 
 Component of pumping base :
-- Wemos D1R2 (esp8266) wifi board of equivalent chinese clone
+- Wemos D1R2 (esp8266) wifi board or equivalent chinese clone
 - 220AC to minimum 7VDC and maximum 12VDC power supply
 - 5 buttons analog board
 - relay 3.3v (important)
 - LCD1601 screen with i2c module
 
 Component of tank station :
-- Wemos D1R2 (esp8266) wifi board of equivalent chinese clone
+- Wemos D1R2 (esp8266) wifi board or equivalent chinese clone
 - ADS1115
 - power source if not already available
 - analog gauge level sensor if not already available
 
-The "AP" .ino is fr the pumping base, the "STA" .ino is for the station (tank).
+The "AP" .ino is for the pumping base, the "STA" .ino is for the station (tank).
 All others informations should be located in the begining of each .ino files.
 If you have a problem with libraries, download the .zip file and place the content in your arduino library folder.
